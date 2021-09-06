@@ -1,0 +1,29 @@
+.img-downloader-div {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.img-downloader-button.img-downloader-show {
+  opacity: 0.5
+}
+
+.img-downloader-button.img-downloader-show:hover {
+  opacity: 1;
+}
+
+.img-downloader-button {
+  position: absolute;
+  z-index: 100;
+  opacity: 0;
+  top: 10px;
+  left: 10px;
+  transition: opacity 0.5s;
+  background-color: black;
+  color: lime;
+  border-radius: 4px;
+  border-color: black;
+  outline: none;
+  margin: 0;
+  font-size: 12px;
+}
